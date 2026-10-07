@@ -10,7 +10,4 @@ jobs:
 
     steps:
       - name: Вывод приветствия
-        run: echo "Привет, мир! Это мой первый GitHub Action!"
-
-      - name: Кто запустил?
-        run: echo "Этот workflow запустил пользователь: ${{ github.actor }}"
+        run: echo "Привет, мир! Это мой первый GitHub Action"
